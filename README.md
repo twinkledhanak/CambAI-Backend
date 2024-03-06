@@ -13,11 +13,17 @@ B.	System Design (Naive)
 C.	Evolving the design and how?
 
 D. 	System Design (A more detailed overview)
+
 E.	Explanation of Code Structure & Design
+
 F.	Deployment Overview
+
 G.	Deployment Steps - Huey Application
+
 H.	Creating a repository on docker.io
+
 I.	Deployment Steps - Redis Service and RedisJSON service
+
 J.	Challenges faced!
 
 **Docker repository:**
