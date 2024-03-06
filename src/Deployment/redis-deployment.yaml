@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis-deployment
+spec:
+  replicas: 1  # Number of Redis replicas
+  selector:
+    matchLabels:
+      app: redis
+  template:
+    metadata:
+      labels:
+        app: redis
+    spec:
+      containers:
+        - name: redis
+          image: twinklekdhanak:version1  # Redis Docker image
+          ports:
+            - containerPort: 6379  # Redis default port
+          resources:
+            requests:
+              memory: "256Mi"  # Requested memory
+              cpu: "100m"      # Requested CPU
+            limits:
+              memory: "512Mi"  # Memory limit
+              cpu: "200m"      # CPU limit

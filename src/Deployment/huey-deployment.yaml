@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: huey-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: huey
+  template:
+    metadata:
+      labels:
+        app: huey
+    spec:
+      containers:
+          - name: huey-container
+            image: twinklekdhanak:version1 
+            env:
+              - name: REDIS_HOST
+                value: redisjson-service
+              - name: REDIS_PORT
+                value: 6379
+              - 
+         
