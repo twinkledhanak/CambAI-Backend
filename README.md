@@ -28,3 +28,6 @@ J.	Challenges faced!
 
 **Docker repository:**
 https://hub.docker.com/repository/docker/twinkledhanak/cambai/general
+
+**Loom Video Recording:**
+https://www.loom.com/share/82e78832de834d89abba77f7ad086cde?sid=38f71e40-26b8-4864-9c56-a46915774a25
