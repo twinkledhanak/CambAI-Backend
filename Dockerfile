@@ -1,7 +1,7 @@
 FROM python:3.9
 
 # Install dependencies
-RUN pip install huey redis re fastapi asyncio
+RUN pip install huey redis fastapi asyncio
 
 # Copy your Huey application code into the container
 COPY . /app
