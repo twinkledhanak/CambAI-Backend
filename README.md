@@ -4,7 +4,7 @@
 Develop a key-value store using Kubernetes (k8s), FastAPI, and Huey as a REDIS queue that can scale reliably across multiple pods/deployments. 
 
 **Idea, Approach and Implementation:**
-Please refer to PDF document in this repository. It contains the follwing:
+Please refer to PDF document in this repository. It contains the following:
 
 A.	Breaking down the requirements
 B.	System Design (Naive)
