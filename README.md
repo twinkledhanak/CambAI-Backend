@@ -6,8 +6,8 @@ Develop a key-value store using Kubernetes (k8s), FastAPI, and Huey as a REDIS q
 **Idea, Approach and Implementation:**
 Please refer to PDF document in this repository. It contains the follwing:
 
-A.	Breaking down the requirements
-B.	System Design (Naive)
+A.	Breaking down the requirements\n
+B.	System Design (Naive)\n
 C.	Evolving the design and how?
 D. 	System Design (A more detailed overview)
 E.	Explanation of Code Structure & Design
